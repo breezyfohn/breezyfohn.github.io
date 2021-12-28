@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
+    clean: true
   },
   module: {
     rules: [
@@ -20,7 +21,11 @@ module.exports = {
             ]
           }
         }
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ]
   },
   resolve: {
