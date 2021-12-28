@@ -1,6 +1,6 @@
 {
   "name": "breezyfohn.com",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Breezyfon's Webpage",
   "main": "index.js",
   "scripts": {
@@ -30,10 +30,12 @@
     "typescript": "4.x",
     "webpack": "5.x",
     "webpack-cli": "4.x",
-    "webpack-dev-server": "4.x"
+    "webpack-dev-server": "4.x",
+    "@fontsource/roboto": "^4.5.1",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "react-router-dom": "^6.2.1"
   },
   "dependencies": {
-    "@fontsource/roboto": "^4.5.1",
-    "@fortawesome/react-fontawesome": "^0.1.16"
+    "prop-types": "^15.8.0"
   }
 }

@@ -1,11 +1,20 @@
 import * as React from 'react';
-import { Grid } from '@mui/material';
-import members from 'Data/members';
-import Member from 'Components/member/component'
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+
+import { Container } from '@mui/material'
+
+import Members from 'Components/members/component'
+import Navigation from 'Components/navigation/component'
+import About from 'Components/about/component'
 
 export default function App() {
 
@@ -20,21 +29,23 @@ export default function App() {
       }),
     [prefersDarkMode],
   );
+  
+  const style = {
+    paddingTop: 10
+  }
 
-  const memberComponents = members.map(
-    member => <Grid item xs={3} key={member.id}><Member
-                name={member.name}
-                github={member.github}
-                webpage={member.webpage}
-              >
-              </Member></Grid>
-    )
   return (
   <ThemeProvider theme={theme}>
     <CssBaseline />
-      <Grid container spacing={2}>
-        {memberComponents}
-      </Grid>
+    <BrowserRouter>
+      <Navigation />
+      <Container style={style}>
+        <Routes>
+          <Route path="/" element={<Members />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Container>
+    </BrowserRouter>
   </ThemeProvider>
   )
 }
