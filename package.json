@@ -1,0 +1,31 @@
+{
+  "name": "zackkain.github.io",
+  "version": "1.0.0",
+  "description": "Zack's Personal Webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack-cli serve --mode=development",
+    "prod": "npx webpack-cli --mode=production"
+  },
+  "author": "zferraro@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/plugin-syntax-jsx": "7.x",
+    "@babel/preset-env": "7.x",
+    "@babel/preset-react": "7.x",
+    "@emotion/react": "11.x",
+    "@emotion/styled": "11.x",
+    "@mui/material": "5.x",
+    "babel-loader": "8.x",
+    "html-webpack-plugin": "5.x",
+    "lodash": "4.x",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "typescript": "4.x",
+    "webpack": "5.x",
+    "webpack-cli": "4.x",
+    "webpack-dev-server": "4.x"
+  }
+}
