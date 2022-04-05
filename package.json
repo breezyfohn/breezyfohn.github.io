@@ -17,7 +17,9 @@
     "@babel/preset-react": "7.x",
     "@emotion/react": "11.x",
     "@emotion/styled": "11.x",
+    "@fontsource/roboto": "^4.5.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "5.x",
     "babel-loader": "8.x",
@@ -26,14 +28,12 @@
     "lodash": "4.x",
     "react": "17.x",
     "react-dom": "17.x",
+    "react-router-dom": "^6.2.1",
     "style-loader": "^3.3.1",
     "typescript": "4.x",
     "webpack": "5.x",
     "webpack-cli": "4.x",
-    "webpack-dev-server": "4.x",
-    "@fontsource/roboto": "^4.5.1",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "react-router-dom": "^6.2.1"
+    "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
     "prop-types": "^15.8.0"
