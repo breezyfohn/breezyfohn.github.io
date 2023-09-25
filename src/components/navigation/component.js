@@ -12,6 +12,7 @@ const LinkGenerator = (to) => React.forwardRef((props, ref) => (
 
 const Home = LinkGenerator("/")
 const About = LinkGenerator("/about")
+const Cancer = LinkGenerator("/cancer")
 
 export default function ButtonAppBar() {
     return (
@@ -26,6 +27,9 @@ export default function ButtonAppBar() {
                     </Button>
                     <Button component={About} color="inherit">
                         About
+                    </Button>
+                    <Button component={Cancer} color="inherit">
+                        Cancer
                     </Button>
                 </Toolbar>
             </AppBar>

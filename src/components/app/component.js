@@ -15,6 +15,7 @@ import { Container } from '@mui/material'
 import Members from 'Components/members/component'
 import Navigation from 'Components/navigation/component'
 import About from 'Components/about/component'
+import Cancer from 'Components/cancer/component';
 
 export default function App() {
 
@@ -43,6 +44,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Members />} />
           <Route path="/about" element={<About />} />
+          <Route path="/cancer" element={<Cancer />} />
         </Routes>
       </Container>
     </BrowserRouter>
