@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Help with appointments",
+        "details": "Zack will be taking Brenna to her appointments as needed. If for some reason he cannot make it, Brenna will reach out to you directly."
+    },
+    {
+        "title": "Help with meals",
+        "details": "Please submit your favorite comfort food recipe using the form below. Sending or ordering food is not necessary."
+    },
+    {
+        "title": "Help with the cats",
+        "details": "If you live near us and would like to be on the shortlist for cat-sitting, please let us know. Having people we can ask to feed the cats in a pinch would be a great help."
+    },
+    {
+        "title": "Send flowers",
+        "details": "Brenna loves flowers. The cats love eating flowers. So that Brenna does not have to do additional work keeping the cats from the flowers, please do NOT send flowers."
+    },
+    {
+        "title": "Send a card",
+        "details": "A card would be lovely. If you are family and do not have Brenna's address, please reach out to her parents. If you are a friend and do not have her address, please reach out to Zack or Ana."
+    },
+    {
+        "title": "Send something (not a card or flowers)",
+        "details": "If you really, really, really want to send her something, and your flower idea was rejected, a gift card to a massage parlor would be the most helpful."
+    },
+    {
+        "title": "Commiserate about breast cancer or provide helpful details from past experience",
+        "details": "If you have positive stories or helpful hints, please submit them using the form below. This isn't Brenna's first cancer rodeo, but it's always nice to hear helpful things."
+    },
+    {
+        "title": "Give Brenna space to vent",
+        "details": "Brenna really appreciates the ability to let off steam, but she's an introvert, and this is a mentally and physically draining process. She has a regular therapist, but if she needs more, she'll reach out as needed."
+    },
+    {
+        "title": "Get drinks/dinner/coffee/etc.",
+        "details": "Unless she is too tired or has been told not to by her doctors, Brenna would most enjoy a chill meet-up to hang out and act like things are totally normal, during which she is NOT asked about her treatment in excruciating detail."
+    }
+]

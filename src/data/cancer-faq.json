@@ -1,0 +1,38 @@
+[
+    {
+        "question": "How is Brenna doing?",
+        "answer": "Probably tired, either physically or emotionally! What I learned from my first bout with cancer is that it's a very exhausting process. I didn't have the words to articulate it back then, but being sick takes more effort than just working to heal. Constantly being asked about my wellbeing and treatment status, even though it's coming from a place of love, is very tiring for me, because it's a constant reminder that I am sick. What I really want to do is take a mental break for a while! If you're worried about me, please make sure you have someone to talk to. If I don't feel like talking or hanging out, please don't take it personally. I'm doing everything I can to take care of myself, but that job is exponentially harder right now."
+    },
+    {
+        "question": "How is treatment going? Where is Brenna in her treatment?",
+        "answer": "All the info we're sharing is in the Current Status tab. If it has not changed since the last time you checked, there's nothing new to share."
+    },
+    {
+        "question": "What kind of cancer is it?",
+        "answer": "Invasive ductile carcinoma. It is the most common type of breast cancer."
+    },
+    {
+        "question": "What stage is Brenna's cancer? What is her prognosis?",
+        "answer": "Right now, we're waiting for more test results before they can say what the stage is. Some results look really good for her prognosis, and some are more middle-of-the-road."
+    },
+    {
+        "question": "How was the cancer found?",
+        "answer": "Brenna very fortunately started getting serious about her monthly self exams this past summer, so she had a good idea of what was normal for her. While getting ready for bed one evening, she noticed a lump that hadn't been there before. When it didn't go away after a couple weeks, she reached out to her doctor."
+    },
+    {
+        "question": "How can I help?",
+        "answer": "If you haven't already looked at the How Can I Help? tab, please check it out. If you aren't satisfied with the suggestions there, please just give Brenna the space she needs to take care of herself."
+    },
+    {
+        "question": "Has Brenna heard of/tried/considered XYZ?",
+        "answer": "Brenna will be following the recommendations of her doctors with regard to her care. But if those are food, movie, book, or game recommendations, please tell her."
+    },
+    {
+        "question": "How is Zack doing?",
+        "answer": "Zack is still processing. Unlike Brenna, he doesn't have the benefit(?) of past experience. Please reach out to him: he needs support, too!"
+    },
+    {
+        "question": "Who built this website?",
+        "answer": "Brenna built this cancer info page using React and MUI. The rest of it was set up by Zack. We'll be working together to keep it updated."
+    }
+]
