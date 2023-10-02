@@ -40,10 +40,10 @@ export default function CancerStatus() {
                             10/01/23 - HER2 result is 2+, <Link
                                 href="https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html">
                                 "equivocal"
-                            </Link>. No FISH results.
+                            </Link>. FISH results suggest we treat the HER2 marker as negative.
                         </Typography>
                     </Box>  
-                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
