@@ -1,7 +1,8 @@
 import * as React from 'react';
 
 import {
-  BrowserRouter,
+  // BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -38,7 +39,7 @@ export default function App() {
   return (
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    <BrowserRouter>
+    <HashRouter>
       <Navigation />
       <Container style={style}>
         <Routes>
@@ -47,7 +48,7 @@ export default function App() {
           <Route path="/cancer" element={<Cancer />} />
         </Routes>
       </Container>
-    </BrowserRouter>
+    </HashRouter>
   </ThemeProvider>
   )
 }

@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, SvgIcon, Typography } from '@mui/material';
+import { Box, Grid, Link, Paper, SvgIcon, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import PendingIcon from '@mui/icons-material/Pending';
@@ -25,18 +25,22 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Genetic Test Results</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            9/21/23 - Specimen submitted for testing, awaiting results.
+                            10/01/23 - 0 of 37 genetic markers for breast cancer. Despite family history, this is
+                            just bad luck.
                         </Typography>
                     </Box>
-                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                 <StatusItem>
                     <Box sx={{ textAlign: 'left' }}>
-                        <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>HER Test Results</Typography>
+                        <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>HER2 Test Results</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            9/20/23 - Awaiting results of testing.
+                            10/01/23 - HER2 result is 2+, <Link
+                                href="https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html">
+                                "equivocal"
+                            </Link>. No FISH results.
                         </Typography>
                     </Box>  
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
@@ -47,10 +51,10 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>MRI Results</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            MRI scheduled for 9/26/23.
+                            MRI reveals a size of ~2.5cm with no boundry issues.
                         </Typography>
                     </Box>
-                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>

@@ -6,7 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
-    clean: true
+    clean: {
+      keep: /CNAME/
+    }
   },
   module: {
     rules: [
