@@ -14,7 +14,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Biopsy Results</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            9/20/23 - Results indicated left side Invasive Ductile Carcinoma.
+                            10/6/23 - Results indicated left side breast lump is Invasive Ductile Carcinoma. Right side lump & left side armpit lump are benign.
                         </Typography>
                     </Box>
                     <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
@@ -62,7 +62,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Meet Care Team</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            Care team will include: surgeon, medical oncologist, radiation oncologist, and nurse navigator.
+                            10/6/23 Met with surgeon, medical oncologist, and nurse navigator. Radiation oncologist, and reconstruction surgeon pending.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
