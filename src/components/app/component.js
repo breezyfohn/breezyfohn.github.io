@@ -1,7 +1,6 @@
-import * as React from 'react';
+import React, { lazy, Suspense } from 'react';
 
 import {
-  // BrowserRouter,
   HashRouter,
   Routes,
   Route
@@ -13,10 +12,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import { Container } from '@mui/material'
 
-import Members from 'Components/members/component'
 import Navigation from 'Components/navigation/component'
-import About from 'Components/about/component'
-import Cancer from 'Components/cancer/component';
+const Members = lazy( () => import('Components/members/component'))
+const About = lazy( () => import('Components/about/component'))
+const Cancer = lazy( () => import('Components/cancer/component'))
 
 export default function App() {
 
@@ -42,11 +41,13 @@ export default function App() {
     <HashRouter>
       <Navigation />
       <Container style={style}>
-        <Routes>
-          <Route path="/" element={<Members />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cancer" element={<Cancer />} />
-        </Routes>
+        <Suspense fallback={<div>loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Members />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/cancer" element={<Cancer />} />
+          </Routes>
+        </Suspense>
       </Container>
     </HashRouter>
   </ThemeProvider>
