@@ -62,7 +62,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Meet Care Team</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            10/6/23 Met with surgeon, medical oncologist, and nurse navigator. Radiation oncologist, and reconstruction surgeon pending.
+                            10/23/23 Met with surgeon, medical oncologist, and nurse navigator. Booked a reconstruction surgeon. Radiation oncologist TBD if necessary.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
@@ -73,7 +73,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Create Treatment Plan</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            Treatment will be decided after all test results are back.
+                            10/23/23 Treatment will be decided after all test results are back. Including surgery results.
                         </Typography>
                     </Box>
                     <SvgIcon component={CancelIcon} sx={{ color: 'maroon', marginLeft: '1rem' }}></SvgIcon>
@@ -95,10 +95,10 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Surgery</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            Date and type TBD.
+                            10/23/23 Date TBD; shooting for mid-November. The surgery will be a bilateral mastectomy.
                         </Typography>
                     </Box>
-                    <SvgIcon component={CancelIcon} sx={{ color: 'maroon', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             </Grid>
