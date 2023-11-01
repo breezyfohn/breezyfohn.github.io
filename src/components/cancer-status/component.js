@@ -8,7 +8,7 @@ import * as React from 'react';
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 10/31/2023</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 11/01/2023</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                 <StatusItem>
@@ -96,7 +96,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Surgery</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            10/23/23 Date TBD; shooting for mid-November. The surgery will be a bilateral mastectomy.
+                            11/01/23 The surgery on 12/06/2023 and will be be a bilateral mastectomy.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
