@@ -52,7 +52,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>MRI Results</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            MRI reveals a size of ~2.5cm with no boundry issues.
+                            MRI reveals a size of ~2.5cm with no boundary issues.
                         </Typography>
                     </Box>
                     <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
@@ -96,7 +96,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Surgery</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            12/05/23 The surgery on 12/08/2023 and will be be a bilateral mastectomy.
+                            12/05/23 The surgery on 12/08/2023 and will be a bilateral mastectomy.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
