@@ -8,7 +8,7 @@ import * as React from 'react';
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 12/11/2023</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 12/12/2023</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                 <StatusItem>
@@ -63,7 +63,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Meet Care Team</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            10/31/23 Met with surgeon, medical oncologist, nurse navigator, and a reconstruction surgeon. Radiation oncologist TBD if necessary.
+                            12/12/23 Met with surgeon, medical oncologist, nurse navigator, and a reconstruction surgeon. Radiation oncologist will call.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
@@ -74,10 +74,10 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Create Treatment Plan</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            10/23/23 Treatment will be decided after all test results are back. Including surgery results.
+                            12/12/23 Treatment will include hormone therapy and radiation on the left side to clean up remnants. No chemo necessary.
                         </Typography>
                     </Box>
-                    <SvgIcon component={CancelIcon} sx={{ color: 'maroon', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
