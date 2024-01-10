@@ -8,7 +8,7 @@ import * as React from 'react';
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 12/12/2023</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 01/10/2024</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                 <StatusItem>
@@ -63,10 +63,10 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Meet Care Team</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            12/12/23 Met with surgeon, medical oncologist, nurse navigator, and a reconstruction surgeon. Radiation oncologist will call.
+                            01/10/24 Met with surgeon, medical oncologist, nurse navigator, reconstruction surgeon and radiation oncologist.
                         </Typography>
                     </Box>
-                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={CheckCircleIcon} sx={{ color: 'forestgreen', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
@@ -74,7 +74,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Create Treatment Plan</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            12/12/23 Treatment will include hormone therapy and radiation on the left side to clean up remnants. No chemo necessary.
+                            01/10/24 Treatment will include hormone therapy and 33 rounds of radiation over almost 7 weeks on the left side to clean up remnants. No chemo necessary.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
@@ -85,10 +85,10 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Start Treatment</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            Date TBD.
+                            01/20/24 Radiation is starting late Jan / early Feb. No firm start date. No information on hormone therapy.
                         </Typography>
                     </Box>
-                    <SvgIcon component={CancelIcon} sx={{ color: 'maroon', marginLeft: '1rem' }}></SvgIcon>
+                    <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
                 </StatusItem>
             </Grid>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
