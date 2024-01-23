@@ -8,7 +8,7 @@ import * as React from 'react';
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 01/10/2024</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 01/23/2024</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
             <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                 <StatusItem>
@@ -74,7 +74,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Create Treatment Plan</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            01/10/24 Treatment will include hormone therapy and 33 rounds of radiation over almost 7 weeks on the left side to clean up remnants. No chemo necessary.
+                            01/23/24 Treatment will include 4 rounds of chemo over 9 weeks, 33 rounds of radiation over almost 7 weeks, and 5 years of hormone therapy.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
@@ -85,7 +85,7 @@ export default function CancerStatus() {
                     <Box sx={{ textAlign: 'left' }}>
                         <Typography sx={{ fontSize: '1rem' }} variant='subtitle2'>Start Treatment</Typography>
                         <Typography sx={{ fontSize: '1rem' }} variant='body2'>
-                            01/20/24 Radiation is starting late Jan / early Feb. No firm start date. No information on hormone therapy.
+                            01/23/24 Chemo starting late Jan, early Feb. Hormone Therapy starting mid-chemo. Radiation is starting late Apr / early May. No firm start dates.
                         </Typography>
                     </Box>
                     <SvgIcon component={PendingIcon} sx={{ color: 'goldenrod', marginLeft: '1rem' }}></SvgIcon>
