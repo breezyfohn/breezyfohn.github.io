@@ -13,7 +13,7 @@ import * as RadiationDates from 'Data/radiation-dates.json'
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 01/23/2024</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 02/14/2024</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
                 <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                     <StatusItem>
@@ -92,15 +92,15 @@ export default function CancerStatus() {
                             <Typography sx={{ fontSize: '1rem' }} variant='body2'>
                                 01/23/24 Chemo starting late Jan, early Feb. Hormone Therapy starting mid-chemo. Radiation is starting late Apr / early May. No firm start dates.
                             </Typography>
-                            <Typography variant='body2' color='text.secondary'>
+                            <Typography variant='body2' color='text.secondary' sx={{ padding: '4px 0px'}}>
                                 Chemo
                                 <LinearProgress variant='determinate' value={progress(ChemoDates)} />
                             </Typography>
-                            <Typography variant='body2' color='text.secondary'>
+                            <Typography variant='body2' color='text.secondary'sx={{ padding: '4px 0px '}}>
                                 Radiation
                                 <LinearProgress variant='determinate' value={progress(RadiationDates)} />
                             </Typography>
-                            <Typography variant='body2' color='text.secondary'>
+                            <Typography variant='body2' color='text.secondary'sx={{ padding: '4px 0px '}}>
                                 Hormone
                                 <LinearProgress variant='determinate' value={progress(HormoneDates)} />
                             </Typography>
