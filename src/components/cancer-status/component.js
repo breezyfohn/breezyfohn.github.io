@@ -13,7 +13,7 @@ import * as RadiationDates from 'Data/radiation-dates.json'
 export default function CancerStatus() {
     return (
         <Box sx={{ width: '100%' }}>
-            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 02/14/2024</Typography>
+            <Typography sx={{ fontSize: '0.75rem' }} variant='subtitle2'>As of 04/15/2024</Typography>
             <Grid container rowSpacing={0} columnSpacing={0}>
                 <Grid item xs={12} md={6} sx={{ display: 'flex', minHeight: '1px', flexFlow: 'column' }}>
                     <StatusItem>
