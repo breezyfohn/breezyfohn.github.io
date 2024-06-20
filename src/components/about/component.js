@@ -7,8 +7,8 @@ export default function About() {
             <CardContent>
                 <Typography>
                     The "Breezy" in Breezyfohn is some letters from Brenna and
-                    some letters from Zack. "Fohn" is a word for a strong wind
-                    (like a chanook). We chose "Fohn" because it went well with
+                    some letters from Zack. "Fohn" (or Föhn or Foehn) is a word for a strong wind
+                    (like a chinook). We chose "Fohn" because it went well with
                     "Breezy". This is our webpage. Once we figure
                     out what we want from it, we'll make it better.
                 </Typography>
