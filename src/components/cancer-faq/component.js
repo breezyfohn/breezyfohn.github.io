@@ -10,7 +10,7 @@ export default function CancerFAQ() {
           key={value.question}
           disableGutters
         >
-            <ListItemText>
+            <ListItemText sx={{ padding: '8px 1rem' }}>
                 <Typography variant="h6">{value.question}</Typography>
                 <Typography variant="body1" sx={{ fontSize: '1rem' }}>{value.answer}</Typography>
             </ListItemText>
